@@ -42,24 +42,15 @@ const logs = [
 	scaleId: 2, 
 	user_id: 2}, //6
 
-	{name:"toshi's mood log",
+	{name:"t-dubs' mood log",
 	scaleId: 1, 
 	user_id: 3}, //7
 
-	{name:"toshi's hustle log",
+	{name:"t-dubs' hustle log",
 	scaleId: 2, 
 	user_id: 3}, //8
 ]
 
-const entries = [
-	{
-	value: 5,
-	createdAt: "2017-09-25 14:35:06.269-10",
-	scaleId: 1,
-	log_id: 2,
-	user_id: 1
-	}
-]
 
 const scales= [
 	{name: "one-to-five", 
@@ -70,6 +61,315 @@ const scales= [
 	scale: 	[5,10,15,20,25,30,45,60,90,120,150,180,240,270,300,330,360,390]}
 
 ]
+
+
+
+const entries = [
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% START of T's MOODS LOG (7) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	{
+	value: 5,
+	createdAt: "2017-09-02 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 5,
+	createdAt: "2017-09-03 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 3,
+	createdAt: "2017-09-04 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 3,
+	createdAt: "2017-09-05 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 1,
+	createdAt: "2017-09-07 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 2,
+	createdAt: "2017-09-08 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 1,
+	createdAt: "2017-09-09 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 2,
+	createdAt: "2017-09-10 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+		{
+	value: 1,
+	createdAt: "2017-09-12 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 5,
+	createdAt: "2017-09-14 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 4,
+	createdAt: "2017-09-15 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 5,
+	createdAt: "2017-09-16 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 3,
+	createdAt: "2017-09-16 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 1,
+	createdAt: "2017-09-17 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 2,
+	createdAt: "2017-09-18 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 1,
+	createdAt: "2017-09-19 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 2,
+	createdAt: "2017-09-21 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+		{
+	value: 1,
+	createdAt: "2017-09-21 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 5,
+	createdAt: "2017-09-22 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 4,
+	createdAt: "2017-09-23 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 5,
+	createdAt: "2017-09-25 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 4,
+	createdAt: "2017-09-26 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 3,
+	createdAt: "2017-09-27 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 3,
+	createdAt: "2017-09-28 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 3,
+	createdAt: "2017-09-29 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 4,
+	createdAt: "2017-09-30 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	},
+// ]
+// %%%%%%%%%%%%%%%%%%%%%%%%%% END of T's MOODS LOG %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% START of T's HUSTLE LOG (8) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+	{
+	value: 30,
+	createdAt: "2017-09-04 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 8,
+	user_id: 3
+	}, 
+	{
+	value: 20,
+	createdAt: "2017-09-05 15:35:06.269-10",
+	scaleId: 1,
+	log_id: 8,
+	user_id: 3
+	}, 
+	{
+	value: 35,
+	createdAt: "2017-09-07 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 8,
+	user_id: 3
+	}, 
+	{
+	value: 90,
+	createdAt: "2017-09-08 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 8,
+	user_id: 3
+	}, 
+	{
+	value: 120,
+	createdAt: "2017-09-09 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 8,
+	user_id: 3
+	}, 
+	{
+	value: 20,
+	createdAt: "2017-09-10 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 8,
+	user_id: 3
+	}, 
+	{
+	value: 30,
+	createdAt: "2017-09-12 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 8,
+	user_id: 3
+	}, 
+	{
+	value: 10,
+	createdAt: "2017-09-15 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 8,
+	user_id: 3
+	}, 
+	{
+	value: 45,
+	createdAt: "2017-09-16 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 8,
+	user_id: 3
+	}, 
+	{
+	value: 45,
+	createdAt: "2017-09-19 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 8,
+	user_id: 3
+	}, 
+	{
+	value: 60,
+	createdAt: "2017-09-21 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 45,
+	createdAt: "2017-09-22 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 8,
+	user_id: 3
+	}, 
+	{
+	value: 20,
+	createdAt: "2017-09-23 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 8,
+	user_id: 3
+	}, 
+	{
+	value: 10,
+	createdAt: "2017-09-28 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 7,
+	user_id: 3
+	}, 
+	{
+	value: 10,
+	createdAt: "2017-09-29 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 8,
+	user_id: 3
+	}, 
+	{
+	value: 10,
+	createdAt: "2017-09-30 14:35:06.269-10",
+	scaleId: 1,
+	log_id: 8,
+	user_id: 3
+	}
+]
+// %%%%%%%%%%%%%%%%%%%%%%%%%% END of T's HUSTLE LOG %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 	
 
 
